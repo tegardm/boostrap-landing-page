@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&family=Saira+Condensed:wght@900&display=swap');
+
+  * {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+.logo {
+    letter-spacing: 5px;
+}
+
+.carousel-item {
+    height: 40vh;
+    
+}
+
+
+
+header {
+    min-height: 90vh;
+}
+
+header img {
+    width: 400px;
+}
+
+body {
+    background: linear-gradient(45deg, #ffffff, #e3ffd9, #cccccc);
+    background-size: 400% 400%;
+    animation: gradientAnimation 2s ease infinite;
+    color: black; /* You mentioned that your text color is black */
+    font-family: Arial, sans-serif;
+    
+  }
+  
+  .alert a {
+    text-decoration: none;
+  }
+
+  @keyframes gradientAnimation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+  
+
+
+ 
+@keyframes spin {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+
+  .header-paragraf {
+    font-style: italic;
+  }
+  
+  .spinning-object {
+    width: 400px; /* Adjust the size as needed */
+    height: 400px; /* Adjust the size as needed */
+     /* Replace with your desired object color */
+    animation: spin 10s linear infinite; /* Adjust the animation duration as needed */
+  }
+
+
+
+
+
+.container-fluid {
+    margin: 0;
+    padding: 0 !important;
+}
+.carousel-item img {
+    filter: brightness(.75);
+}
+
+.card img {
+    filter : saturate(0);
+
+}
+
+.card {
+    
+    transition: .5s ease all;
+    transform: scale(.95);
+    background-color: #f1ffec !important;
+
+}
+
+
+
+.card:hover {
+    transform: scale(1);
+    transform: rotate(5deg);
+}
+
+
+/* Define the scrollbar width */
+::-webkit-scrollbar {
+    width: 20px;
+  }
+  
+  /* Define the scrollbar track background color (green) */
+  ::-webkit-scrollbar-track {
+    background-color: #198754; /* Green */
+  }
+  
+  /* Define the scrollbar thumb color (blue) */
+  ::-webkit-scrollbar-thumb {
+    background-color: #70d463; /* Blue */
+    border: none; /* Remove the border */
+    border-radius: 0; /* Remove the radius */
+  }
+  
