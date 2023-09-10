@@ -13,10 +13,10 @@
 </head>
 <body>
     <div class="text-sm-start text-center container my-3">
-        <nav class="navbar navbar-expand-lg ">
+        <nav class="navbar px-5 navbar-expand-lg ">
             <div class="container-fluid">
               
-              <a href="#homeElectra" class="navbar-brand pb-2 fw-normal logo text-success href="#"><img src="./logo-removebg-preview.png" class="pb-1 mx-1" width="35" alt=""> ELECTRA</a>
+              <a href="#homeElectra" class="navbar-brand pb-1.5 fw-normal logo text-success href="#"><img src="./logo-removebg-preview.png" class="pb-1 mx-1" width="35" alt=""> ELECTRA</a>
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
               </button>
@@ -208,11 +208,15 @@
               </div>
           </div>
           <br>
+
           <div data-aos="fade-right" data-aos-duration="1000" class="content">
+            <button id="toggleMode" class="bg-success p-2 text-white border-none"><i class="bi bi-lightbulb"></i></button>
+
             <h3 class="py-3">Tertarik Untuk Menghubungi Kami ?</h3>
             <button type="button" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#exampleModal">
                 Hubungi ELECTRA
             </button>
+            
             <!-- Button trigger modal -->
             
   
@@ -251,8 +255,8 @@
             <hr>
             <p class="my-4">Dibuat Oleh <a href="https://www.instagram.com/tegar_deyustian/">Tegar Deyustian</a> &copy; 2023</p>
           </footer>
+
     </div>
-    
 </body>
 
 <script src="https://unpkg.com/typeit@8.7.1/dist/index.umd.js"></script>
@@ -265,10 +269,11 @@
   new TypeIt("#typed", {
   strings: " ELECTRA Mewujudkan Visi & Misi Anda",
   speed: 50,
-
+  loop : true
   
 }).go();
 
  </script>
+ <script src="./script.js"></script>
 
 </html>
